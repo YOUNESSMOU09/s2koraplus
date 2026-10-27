@@ -8,7 +8,7 @@ workflows:
       ios_signing:
         bundle_identifier: com.koorapulse.app
         provisioning_profiles:
-          - Provisioning_plusk
+          - Provisioning_pluskk
         certificates:
           - certificate
     scripts:
