@@ -1,0 +1,1084 @@
+{
+  "@@locale": "en",
+  "appName": "Marma",
+  "appTagline": "No odds. No noise. Just football.",
+  "navMatches": "Matches",
+  "navLive": "Live",
+  "navFollowing": "Following",
+  "navSettings": "Settings",
+  "dayYesterday": "Yesterday",
+  "dayToday": "Today",
+  "dayTomorrow": "Tomorrow",
+  "screenMatches": "Matches",
+  "screenLive": "Live",
+  "screenFollowing": "Following",
+  "screenSettings": "Settings",
+  "screenSearch": "Search",
+  "screenManageFavourites": "Manage favourites",
+  "screenAppearance": "Appearance",
+  "screenLanguage": "Language",
+  "screenAbout": "About",
+  "actionRetry": "Try again",
+  "actionRefresh": "Refresh",
+  "actionClose": "Close",
+  "actionDone": "Done",
+  "actionSkip": "Skip",
+  "actionBack": "Back",
+  "actionNext": "Next",
+  "actionCancel": "Cancel",
+  "actionClear": "Clear",
+  "actionSearch": "Search",
+  "actionFollow": "Follow",
+  "actionUnfollow": "Unfollow",
+  "actionGoToToday": "Go to today",
+  "actionSeeTodaysFixtures": "See today's fixtures",
+  "actionAddFavourites": "Add favourites",
+  "actionRemove": "Remove",
+  "actionGetStarted": "Get started",
+  "actionSwitchDay": "Switch day",
+  "statusTbd": "Time to be defined",
+  "statusNs": "Not started",
+  "statusFirstHalf": "First half",
+  "statusHalfTime": "Half time",
+  "statusSecondHalf": "Second half",
+  "statusExtraTime": "Extra time",
+  "statusBreakTime": "Break time",
+  "statusPenaltyShootout": "Penalty shootout",
+  "statusSuspended": "Suspended",
+  "statusInterrupted": "Interrupted",
+  "statusFullTime": "Full time",
+  "statusAfterExtraTime": "After extra time",
+  "statusAfterPenalties": "After penalties",
+  "statusPostponed": "Postponed",
+  "statusCancelled": "Cancelled",
+  "statusAbandoned": "Abandoned",
+  "statusTechnicalLoss": "Technical loss",
+  "statusWalkover": "Walkover",
+  "statusLive": "Live",
+  "abbrFullTime": "FT",
+  "abbrAfterExtraTime": "AET",
+  "abbrPenalties": "PEN",
+  "abbrHalfTime": "HT",
+  "abbrExtraTime": "ET",
+  "abbrPostponed": "POST",
+  "abbrCancelled": "CANC",
+  "abbrAbandoned": "ABD",
+  "abbrLive": "LIVE",
+  "eventNormalGoal": "Goal",
+  "eventOwnGoal": "Own goal",
+  "eventPenaltyGoal": "Penalty",
+  "eventMissedPenalty": "Missed penalty",
+  "eventYellowCard": "Yellow card",
+  "eventRedCard": "Red card",
+  "eventSecondYellow": "Second yellow",
+  "eventSubstitution": "Substitution",
+  "labelVenue": "Venue",
+  "labelReferee": "Referee",
+  "labelRound": "Round",
+  "labelSeason": "Season",
+  "labelKickoff": "Kick-off",
+  "labelCompetition": "Competition",
+  "labelTimeline": "Timeline",
+  "labelCompetitions": "Competitions",
+  "labelTeams": "Teams",
+  "labelMatches": "Matches",
+  "labelAssist": "Assist: {name}",
+  "@labelAssist": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "labelFullTimeScore": "FT {home}–{away}",
+  "@labelFullTimeScore": {
+    "placeholders": {
+      "home": {
+        "type": "String"
+      },
+      "away": {
+        "type": "String"
+      }
+    }
+  },
+  "labelPenaltiesScore": "PEN {home}–{away}",
+  "@labelPenaltiesScore": {
+    "placeholders": {
+      "home": {
+        "type": "String"
+      },
+      "away": {
+        "type": "String"
+      }
+    }
+  },
+  "freshUpdatedJustNow": "Updated just now",
+  "freshUpdatedMinutesAgo": "Updated {minutes} min ago",
+  "@freshUpdatedMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "freshOfflineFrom": "Offline · from {minutes} min ago",
+  "@freshOfflineFrom": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "freshOfflineNoData": "Offline",
+  "freshNeverUpdated": "Not updated yet",
+  "offlineBanner": "You're offline. Showing saved scores.",
+  "errorOfflineTitle": "You're offline",
+  "errorOfflineBody": "Showing scores saved {minutes} min ago.",
+  "@errorOfflineBody": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "errorOfflineBodyNoCache": "Connect to the internet to load today's matches.",
+  "errorTimeoutTitle": "Scores are taking a while",
+  "errorTimeoutBody": "The score feed didn't answer in time.",
+  "errorServerTitle": "The score feed is having a moment",
+  "errorServerBody": "We'll keep trying.",
+  "errorBadResponseTitle": "We couldn't read the score feed",
+  "errorBadResponseBody": "The response wasn't in a shape we understand.",
+  "errorUnknownTitle": "Something went wrong",
+  "errorUnknownBody": "Pull down to try again.",
+  "emptyDayTitle": "No matches scheduled",
+  "emptyDayBody": "Football takes the occasional day off.",
+  "emptyLiveTitle": "No matches in play right now",
+  "emptyLiveBody": "Live minutes and goals appear here the moment a match kicks off.",
+  "emptyFollowingTitle": "Follow a team to build your feed",
+  "emptyFollowingBody": "Your teams and competitions from yesterday, today and tomorrow, in one place.",
+  "emptyFollowingNoFixturesTitle": "Nothing on for who you follow",
+  "emptyFollowingNoFixturesBody": "None of your teams or competitions have a match yesterday, today or tomorrow. Some leagues are out of season.",
+  "emptySearchTitle": "Search yesterday, today and tomorrow",
+  "emptySearchBody": "Find a team, a competition or a country.",
+  "noResultsTitle": "No matches for \"{query}\"",
+  "@noResultsTitle": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "noResultsBody": "Marma searches yesterday, today and tomorrow only.",
+  "notFoundTitle": "This match isn't in the current three-day window",
+  "notFoundBody": "Marma only covers yesterday, today and tomorrow.",
+  "routeNotFoundTitle": "That screen doesn't exist",
+  "routeNotFoundBody": "The link you followed doesn't lead anywhere in Marma.",
+  "loadingMatches": "Loading matches",
+  "liveCountLabel": "{count} live",
+  "@liveCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sectionLive": "Live",
+  "sectionLaterToday": "Later today",
+  "sectionTomorrow": "Tomorrow",
+  "sectionFinished": "Finished",
+  "matchesFollowedCount": "{count, plural, =0{No matches} =1{1 match} other{{count} matches}}",
+  "@matchesFollowedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsSectionGeneral": "General",
+  "settingsSectionYourFootball": "Your football",
+  "settingsSectionLegal": "Legal & support",
+  "settingsAppearance": "Appearance",
+  "settingsLanguage": "Language",
+  "settingsFollowing": "Following",
+  "settingsPrivacy": "Privacy policy",
+  "settingsTerms": "Terms of use",
+  "settingsSupport": "Support",
+  "settingsAbout": "About Marma",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "languageSystem": "System",
+  "languageEnglish": "English",
+  "languageArabic": "العربية",
+  "aboutVersion": "Version {version} ({build})",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "build": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutAttribution": "Data provided by GOAL API (goal-api.com).",
+  "aboutDisclaimer": "Marma is not affiliated with, endorsed by, or connected to any football club, league, federation or governing body. Scores may be delayed and are unofficial.",
+  "aboutPrivacyPosture": "No account, no login, no tracking. Your favourites, settings and cached scores never leave this device.",
+  "aboutBackendStatus": "Score feed status",
+  "aboutBackendHealthy": "Healthy",
+  "aboutBackendUnhealthy": "Unavailable",
+  "aboutBackendChecking": "Checking…",
+  "aboutBackendUpdated": "Feed updated {minutes} min ago",
+  "@aboutBackendUpdated": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "aboutClearCache": "Clear cached data",
+  "aboutClearCacheSubtitle": "{kilobytes} KB of saved fixtures",
+  "@aboutClearCacheSubtitle": {
+    "placeholders": {
+      "kilobytes": {
+        "type": "int"
+      }
+    }
+  },
+  "aboutCacheCleared": "Cached data cleared.",
+  "manageEmptyTitle": "Nothing followed yet",
+  "manageEmptyBody": "Add a team or competition and it will appear here.",
+  "manageTeamsHeader": "Teams",
+  "manageCompetitionsHeader": "Competitions",
+  "manageRemoved": "{name} removed",
+  "@manageRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sheetFollowHome": "Follow {name}",
+  "@sheetFollowHome": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sheetFollowCompetition": "Follow {name}",
+  "@sheetFollowCompetition": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sheetUnfollow": "Unfollow {name}",
+  "@sheetUnfollow": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsMatchScheduled": "{home} versus {away}, kicks off {time}, {competition}, {country}",
+  "@semanticsMatchScheduled": {
+    "placeholders": {
+      "home": {
+        "type": "String"
+      },
+      "away": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      },
+      "competition": {
+        "type": "String"
+      },
+      "country": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsMatchLive": "{home} {homeGoals}, {away} {awayGoals}, {minute}, {competition}, {country}",
+  "@semanticsMatchLive": {
+    "placeholders": {
+      "home": {
+        "type": "String"
+      },
+      "homeGoals": {
+        "type": "String"
+      },
+      "away": {
+        "type": "String"
+      },
+      "awayGoals": {
+        "type": "String"
+      },
+      "minute": {
+        "type": "String"
+      },
+      "competition": {
+        "type": "String"
+      },
+      "country": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsMinute": "{minute}th minute",
+  "@semanticsMinute": {
+    "description": "VoiceOver reading of a live minute. Never the prime-mark form.",
+    "placeholders": {
+      "minute": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsMinuteAdded": "{minute}th minute plus {added}",
+  "@semanticsMinuteAdded": {
+    "description": "VoiceOver reading of a live minute in added time.",
+    "placeholders": {
+      "minute": {
+        "type": "String"
+      },
+      "added": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsMatchFinished": "{home} {homeGoals}, {away} {awayGoals}, full time, {competition}, {country}",
+  "@semanticsMatchFinished": {
+    "placeholders": {
+      "home": {
+        "type": "String"
+      },
+      "homeGoals": {
+        "type": "String"
+      },
+      "away": {
+        "type": "String"
+      },
+      "awayGoals": {
+        "type": "String"
+      },
+      "competition": {
+        "type": "String"
+      },
+      "country": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsFollowToggle": "Follow {name}",
+  "@semanticsFollowToggle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsRefresh": "Refresh scores",
+  "semanticsSearch": "Search matches",
+  "semanticsLiveTabBadge": "{count} matches in play",
+  "@semanticsLiveTabBadge": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchHint": "Team, competition or country",
+  "matchDetailAttribution": "Data provided by GOAL API (goal-api.com). Marma is not affiliated with any club, league or federation. Scores may be delayed and are unofficial.",
+  "matchDetailNoTimeline": "Goals, cards and substitutions appear here while a match is live.",
+  "matchDetailTimelineLiveOnly": "Timelines are available for matches in play.",
+  "worthTitle": "Worth watching",
+  "worthSubtitle": "Live now, ordered by what's happening.",
+  "worthAllLive": "All live matches",
+  "worthNoneTight": "Nothing tight right now. Every live match is below.",
+  "worthPaused": "Paused — these scores are more than 10 minutes old.",
+  "liveViewCompetition": "By competition",
+  "liveViewCountry": "By country",
+  "worthReasonShootout": "Penalty shoot-out",
+  "@worthReasonShootout": {
+    "description": "Reason line for a match that has reached a penalty shoot-out."
+  },
+  "worthReasonExtraTime": "Extra time",
+  "worthReasonRedCardMany": "Two players sent off",
+  "worthReasonRedCardOne": "{team} down to ten since the {minute}",
+  "@worthReasonRedCardOne": {
+    "description": "One side has had a player sent off. {minute} is an ordinal such as 61st.",
+    "placeholders": {
+      "team": {
+        "type": "String"
+      },
+      "minute": {
+        "type": "String"
+      }
+    }
+  },
+  "worthReasonComebackLead": "{team} came from behind",
+  "@worthReasonComebackLead": {
+    "placeholders": {
+      "team": {
+        "type": "String"
+      }
+    }
+  },
+  "worthReasonBurst": "{goals} in {span}",
+  "@worthReasonBurst": {
+    "description": "Composed from worthBurstGoals and worthBurstMinutes so no message nests two plurals.",
+    "placeholders": {
+      "goals": {
+        "type": "String"
+      },
+      "span": {
+        "type": "String"
+      }
+    }
+  },
+  "worthReasonComebackLevel": "Level again after going behind",
+  "worthReasonGoallessLate": "Still goalless, late on",
+  "worthReasonGoalless": "Goalless, second half",
+  "worthReasonLevelLate": "Still level, late on",
+  "worthReasonLevel": "Level, second half",
+  "worthReasonOneGoalLate": "One goal in it, late on",
+  "worthReasonOneGoal": "One goal in it",
+  "worthReasonGoalsSoFar": "{goals} so far",
+  "@worthReasonGoalsSoFar": {
+    "placeholders": {
+      "goals": {
+        "type": "String"
+      }
+    }
+  },
+  "worthReasonInPlay": "In play",
+  "worthBurstGoals": "{count, plural, one{1 goal} other{{count} goals}}",
+  "@worthBurstGoals": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "worthBurstMinutes": "{span, plural, one{1 minute} other{{span} minutes}}",
+  "@worthBurstMinutes": {
+    "placeholders": {
+      "span": {
+        "type": "int"
+      }
+    }
+  },
+  "worthHowAction": "How “Worth watching” is ordered",
+  "worthHowTitle": "How “Worth watching” is ordered",
+  "worthHowBody1": "These are matches being played right now, ordered by what has already happened in them.",
+  "worthHowBody2": "Marma looks at how close the score is, how late in the match it is, whether goals have arrived in a short space of time, whether a side has come back, and whether anyone has been sent off.",
+  "worthHowBody3": "It is not a prediction. Marma never says who will win, shows no odds, no probabilities and no percentages, and carries no betting content of any kind.",
+  "@worthHowBody3": {
+    "description": "The only string in the app that names the vocabulary of wagering, and it names it in order to deny it. Whitelisted by key in the gambling-guard test."
+  },
+  "atlasCountries": "{count, plural, one{1 country} other{{count} countries}}",
+  "@atlasCountries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "atlasMatches": "{count, plural, one{1 match} other{{count} matches}}",
+  "@atlasMatches": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "atlasSummary": "{a} · {b}",
+  "@atlasSummary": {
+    "placeholders": {
+      "a": {
+        "type": "String"
+      },
+      "b": {
+        "type": "String"
+      }
+    }
+  },
+  "atlasAsOf": "as of {minutes} min ago",
+  "@atlasAsOf": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "atlasOfflineAsOf": "Offline · as of {minutes} min ago",
+  "@atlasOfflineAsOf": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "atlasInternational": "International",
+  "atlasInternationalOnly": "International competitions only",
+  "semanticsCountryRow": "{country}, {matches}",
+  "@semanticsCountryRow": {
+    "placeholders": {
+      "country": {
+        "type": "String"
+      },
+      "matches": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsWorthHeader": "Worth watching, {matches}",
+  "@semanticsWorthHeader": {
+    "placeholders": {
+      "matches": {
+        "type": "String"
+      }
+    }
+  },
+  "journalTitle": "Football journal",
+  "journalActionOpen": "Journal",
+  "journalEmptyTitle": "Write your football story.",
+  "journalEmptyBody": "Save your reactions, favourite moments, predictions, player ratings and memories from the beautiful game.",
+  "journalEmptyAction": "Start football journal",
+  "journalDeleteAction": "Delete journal",
+  "journalDeleteTitle": "Delete this journal?",
+  "journalDeleteBody": "Everything you wrote about this match is on this device only, and cannot be recovered.",
+  "journalSectionNote": "Your notes",
+  "journalNoteHintMatch": "What did you think about this match?",
+  "journalNoteHintTeam": "What do you think about this team?",
+  "journalNoteHintPlayer": "What do you think about this player?",
+  "journalNoteFormattingHint": "# heading · **bold** · - list",
+  "journalSaving": "Saving…",
+  "journalSavedJustNow": "Saved just now",
+  "journalSavedAt": "Saved at {time}",
+  "@journalSavedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "journalUnsaved": "Not saved yet",
+  "journalWordCount": "{count, plural, =0{No words} =1{1 word} other{{count} words}}",
+  "@journalWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "journalCharacterCount": "{count, plural, =0{0 characters} =1{1 character} other{{count} characters}}",
+  "@journalCharacterCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "journalSectionReactions": "Match reaction",
+  "journalReactionsHint": "Pick as many as you felt.",
+  "journalReactionIncredible": "Incredible",
+  "journalReactionLoved": "Loved it",
+  "journalReactionUnbelievable": "Unbelievable",
+  "journalReactionFunny": "Funny",
+  "journalReactionAngry": "Angry",
+  "journalReactionHeartbreaking": "Heartbreaking",
+  "journalReactionCrazy": "Crazy match",
+  "journalReactionBoring": "Boring",
+  "journalReactionGreatPerformance": "Great performance",
+  "journalReactionDisaster": "Disaster",
+  "journalSectionRating": "Your match rating",
+  "journalRatingOverall": "Overall",
+  "journalRatingHome": "Home team",
+  "journalRatingAway": "Away team",
+  "journalRatingReferee": "Referee",
+  "journalRatingAtmosphere": "Atmosphere",
+  "journalRatingExperience": "Match experience",
+  "journalRatingOutOf": "{value}/10",
+  "@journalRatingOutOf": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "journalRatingUnset": "Not rated",
+  "journalRatingClear": "Clear rating",
+  "journalSectionPlayers": "Player performance",
+  "journalPlayersEmpty": "No players rated yet.",
+  "journalPlayerAdd": "Add player",
+  "journalPlayerEdit": "Edit player",
+  "journalPlayerName": "Player name",
+  "journalPlayerRating": "Rating",
+  "journalPlayerGoals": "Goals",
+  "journalPlayerAssists": "Assists",
+  "journalPlayerKeyPasses": "Key passes",
+  "journalPlayerDefending": "Defensive performance",
+  "journalPlayerComment": "Personal comment",
+  "journalPlayerCommentHint": "Very dangerous throughout the match.",
+  "journalPlayerSortRating": "Highest rated first",
+  "journalPlayerSortAdded": "Order added",
+  "journalSectionMoments": "Favourite moments",
+  "journalMomentsEmpty": "Nothing saved yet. The moment you keep replaying goes here.",
+  "journalMomentAdd": "Add moment",
+  "journalMomentEdit": "Edit moment",
+  "journalMomentTitle": "Title",
+  "journalMomentTitleHint": "Goal of the night",
+  "journalMomentDescription": "What happened",
+  "journalMomentDescriptionHint": "That counter attack was incredible.",
+  "journalMomentMinute": "Minute",
+  "journalMomentSecond": "Second",
+  "journalMomentPlayer": "Player (optional)",
+  "journalMomentGlyph": "Emoji",
+  "journalSectionEvents": "Match timeline",
+  "journalEventsEmpty": "Add the goals, cards and turning points you remember.",
+  "journalEventAdd": "Add event",
+  "journalEventEdit": "Edit event",
+  "journalEventKind": "Event",
+  "journalEventMinute": "Minute",
+  "journalEventExtra": "Added time",
+  "journalEventLabel": "Player or note",
+  "journalEventSide": "Side",
+  "journalEventGoal": "Goal",
+  "journalEventYellowCard": "Yellow card",
+  "journalEventRedCard": "Red card",
+  "journalEventSubstitution": "Substitution",
+  "journalEventSave": "Great save",
+  "journalEventAssist": "Assist",
+  "journalEventMissedChance": "Missed chance",
+  "journalEventRefereeDecision": "Referee decision",
+  "journalSectionFavouriteGoal": "Favourite goal",
+  "journalFavouriteGoalEmpty": "Choose the goal you would watch again.",
+  "journalFavouriteGoalSet": "Choose favourite goal",
+  "journalFavouriteGoalEdit": "Edit favourite goal",
+  "journalFavouriteGoalPlayer": "Scorer",
+  "journalFavouriteGoalMinute": "Minute",
+  "journalFavouriteGoalKind": "Type of goal",
+  "journalFavouriteGoalDescription": "Describe it",
+  "journalGoalKindLongShot": "Long shot",
+  "journalGoalKindCounterAttack": "Counter attack",
+  "journalGoalKindFreeKick": "Free kick",
+  "journalGoalKindHeader": "Header",
+  "journalGoalKindPenalty": "Penalty",
+  "journalGoalKindTeamGoal": "Team goal",
+  "journalGoalKindSoloGoal": "Solo goal",
+  "journalSectionTactical": "Tactical notes",
+  "journalTacticalFormation": "Formation",
+  "journalTacticalFormationHint": "4-3-3",
+  "journalTacticalBestTactic": "Best tactic",
+  "journalTacticalBestTacticHint": "High press",
+  "journalTacticalWeakness": "Key weakness",
+  "journalTacticalWeaknessHint": "Defensive transitions",
+  "journalTacticalBestPlayer": "Best player",
+  "journalTacticalComment": "Tactical comment",
+  "journalTacticalAspects": "Rate the game",
+  "journalAspectPossession": "Possession",
+  "journalAspectPressing": "Pressing",
+  "journalAspectCounterAttacks": "Counter attacks",
+  "journalAspectDefensiveOrganisation": "Defensive organisation",
+  "journalAspectSetPieces": "Set pieces",
+  "journalAspectBuildUp": "Build-up",
+  "journalSectionPrediction": "My call",
+  "journalPredictionHint": "What you called before kickoff.",
+  "journalPredictionHomeScore": "Home",
+  "journalPredictionAwayScore": "Away",
+  "journalPredictionWinner": "Winner",
+  "journalPredictionWinnerHome": "Home",
+  "journalPredictionWinnerDraw": "Draw",
+  "journalPredictionWinnerAway": "Away",
+  "journalPredictionFirstScorer": "First goalscorer",
+  "journalPredictionMotm": "Man of the match",
+  "journalPredictionResult": "How it went",
+  "journalPredictionExact": "You called it exactly.",
+  "journalPredictionRightWinner": "Close. You said {called}, it finished {actual}.",
+  "@journalPredictionRightWinner": {
+    "placeholders": {
+      "called": {
+        "type": "String"
+      },
+      "actual": {
+        "type": "String"
+      }
+    }
+  },
+  "journalPredictionMissed": "Not this time. You said {called}, it finished {actual}.",
+  "@journalPredictionMissed": {
+    "placeholders": {
+      "called": {
+        "type": "String"
+      },
+      "actual": {
+        "type": "String"
+      }
+    }
+  },
+  "journalPredictionPending": "Nothing to compare yet — no final score.",
+  "journalPredictionAccuracy": "Accuracy {value}",
+  "@journalPredictionAccuracy": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "journalPredictionSave": "Save my call",
+  "journalSectionMood": "How you watched it",
+  "journalMoodHype": "Hyped",
+  "journalMoodHappy": "Happy",
+  "journalMoodEmotional": "Emotional",
+  "journalMoodAngry": "Angry",
+  "journalMoodNervous": "Nervous",
+  "journalMoodShocked": "Shocked",
+  "journalMoodEntertained": "Entertained",
+  "journalMoodRelaxed": "Relaxed",
+  "journalMoodBored": "Bored",
+  "journalSectionMemory": "My football memory",
+  "journalMemoryQuestion": "Where did you watch this match?",
+  "journalMemoryStoryHint": "I watched this match with my friends at a café.",
+  "journalMemoryLocation": "Place",
+  "journalMemoryPeople": "Watched with",
+  "journalMemoryOccasion": "Special occasion",
+  "journalMemoryDate": "Date watched",
+  "journalMemoryPickDate": "Pick a date",
+  "journalSectionTags": "Tags",
+  "journalTagsEmpty": "Tag this match so you can find it again.",
+  "journalTagAdd": "Add your own tag",
+  "journalTagMasterclass": "Masterclass",
+  "journalTagDerby": "Derby",
+  "journalTagChampionsLeague": "Champions League",
+  "journalTagComeback": "Comeback",
+  "journalTagHistoric": "Historic",
+  "journalTagCrazyMatch": "Crazy match",
+  "journalTagFavourite": "Favourite",
+  "journalTagGoalFest": "Goal fest",
+  "journalTagDefensiveMasterclass": "Defensive masterclass",
+  "journalTagBadReferee": "Bad referee",
+  "journalTagMustWatch": "Must watch",
+  "journalSectionMotm": "Man of the match",
+  "journalMotmEmpty": "Who ran the game?",
+  "journalMotmSet": "Choose man of the match",
+  "journalMotmEdit": "Edit man of the match",
+  "journalMotmPlayer": "Player",
+  "journalMotmRating": "Rating",
+  "journalMotmReason": "Why?",
+  "journalMotmReasonHint": "He completely controlled the midfield.",
+  "journalSectionActivity": "Journal timeline",
+  "journalActivityCreated": "Journal started",
+  "journalActivityNoteUpdated": "Notes updated",
+  "journalActivityRated": "Match rated {detail}",
+  "@journalActivityRated": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityReactionAdded": "Reaction added {detail}",
+  "@journalActivityReactionAdded": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityMoodSet": "Mood saved {detail}",
+  "@journalActivityMoodSet": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityMomentAdded": "Moment saved · {detail}",
+  "@journalActivityMomentAdded": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityFavouriteGoalSet": "Favourite goal · {detail}",
+  "@journalActivityFavouriteGoalSet": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityManOfTheMatchSet": "Man of the match · {detail}",
+  "@journalActivityManOfTheMatchSet": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityPlayerRated": "Player rated · {detail}",
+  "@journalActivityPlayerRated": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityPredictionMade": "Call saved",
+  "journalActivityTacticalUpdated": "Tactical notes updated",
+  "journalActivityMemoryWritten": "Memory saved",
+  "journalActivityEventAdded": "Timeline event added {detail}",
+  "@journalActivityEventAdded": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityStatAdded": "Statistic added · {detail}",
+  "@journalActivityStatAdded": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityTagAdded": "Tag added · {detail}",
+  "@journalActivityTagAdded": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "journalActivityWatchedAgain": "Watched again",
+  "journalSectionStats": "Statistics you noted",
+  "journalStatsEmpty": "Record the numbers that stood out.",
+  "journalStatAdd": "Add statistic",
+  "journalStatEdit": "Edit statistic",
+  "journalStatLabel": "Statistic",
+  "journalStatHome": "Home",
+  "journalStatAway": "Away",
+  "journalStatPossession": "Possession",
+  "journalStatShots": "Shots",
+  "journalStatShotsOnTarget": "Shots on target",
+  "journalStatCorners": "Corners",
+  "journalStatBigChances": "Big moments",
+  "journalSummaryAction": "Summarise my match",
+  "journalSummaryTitle": "Your match, in short",
+  "journalSummaryOpinion": "Overall",
+  "journalSummaryBestPlayer": "Best player",
+  "journalSummaryFavouriteMoment": "Favourite moment",
+  "journalSummaryTactical": "Tactical observation",
+  "journalSummaryDisappointment": "Biggest disappointment",
+  "journalSummaryFinalRating": "Final rating",
+  "journalSummaryEmpty": "Write a little more and the summary will have something to work with.",
+  "journalSummaryAppend": "Add to my notes",
+  "journalSummaryNote": "Built from what you wrote. Your notes are never replaced.",
+  "journalSectionRewatch": "Rewatched",
+  "journalWatchedTimes": "{count, plural, =0{Not logged yet} =1{Watched once} other{Watched {count} times}}",
+  "@journalWatchedTimes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "journalFirstWatched": "First watched",
+  "journalLastWatched": "Last watched",
+  "journalWatchAgain": "Watched again",
+  "journalBarNote": "Note",
+  "journalBarMoment": "Moment",
+  "journalBarRate": "Rate",
+  "journalBarPredict": "Call",
+  "journalHeaderTeam": "Team journal",
+  "journalHeaderPlayer": "Player journal",
+  "journalRemove": "Remove",
+  "journalSave": "Save",
+  "journalOptional": "Optional",
+  "journalSemanticsRating": "{label}, {value} out of 10",
+  "@journalSemanticsRating": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "journalSemanticsReaction": "{label}, {state}",
+  "@journalSemanticsReaction": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "journalStateSelected": "selected",
+  "journalStateNotSelected": "not selected",
+  "journalPreviewOn": "Preview formatting",
+  "journalPreviewOff": "Back to editing",
+  "navJournal": "Journal",
+  "journalIndexTitle": "Your journal",
+  "journalIndexSubtitle": "{count, plural, =0{Nothing written yet} =1{1 match written up} other{{count} matches written up}}",
+  "@journalIndexSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "journalIndexEmptyTitle": "Your football story starts here.",
+  "journalIndexEmptyBody": "Open any match and tap the journal icon to save what you thought, what you felt, and where you watched it.",
+  "journalIndexEmptyAction": "Find a match",
+  "journalIndexUnknownMatch": "Match",
+  "journalIndexUpdated": "Updated {date}",
+  "@journalIndexUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsSectionSupport": "Support the app",
+  "settingsRewardTitle": "Watch an ad, browse ad-free",
+  "settingsRewardBody": "One short video buys you {minutes} minutes without interruptions.",
+  "@settingsRewardBody": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsRewardAction": "Watch",
+  "settingsAdFreeActive": "Ad-free for another {minutes} min",
+  "@settingsAdFreeActive": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAdFreeThanks": "Thanks — enjoy the quiet.",
+  "settingsRewardUnavailable": "No video is ready just now. Try again in a moment.",
+  "journalTabWrite": "Write",
+  "journalTabRate": "Rate",
+  "journalTabMoments": "Moments",
+  "journalTabAnalysis": "Analysis",
+  "journalProgress": "{done} of {total} sections",
+  "@journalProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "journalUpNext": "Up next: {section}",
+  "@journalUpNext": {
+    "placeholders": {
+      "section": {
+        "type": "String"
+      }
+    }
+  },
+  "journalAllDone": "Every section filled in. A complete journal.",
+  "journalDeleted": "Journal deleted",
+  "journalUndo": "Undo",
+  "journalSearchHint": "Search teams, competitions, notes",
+  "journalFilterAll": "All",
+  "journalFilterRated": "Rated",
+  "journalFilterNotes": "With notes",
+  "journalFilterPredictions": "Predictions",
+  "journalFilterTopRated": "Top rated",
+  "journalSortTooltip": "Sort",
+  "journalSortRecent": "Recently edited",
+  "journalSortMatchDate": "Match date",
+  "journalSortRating": "Highest rated",
+  "journalStatJournals": "Journals",
+  "journalStatAverage": "Avg rating",
+  "journalStatWords": "Words",
+  "journalNoResultsTitle": "No journals match",
+  "journalNoResultsBody": "Try another search or clear the filters.",
+  "journalClearFilters": "Clear filters",
+  "journalByRating": "By rating",
+  "journalSwipeDelete": "Delete",
+  "journalMoodHint": "Tap everything you felt. Your vibe updates as you go.",
+  "journalMoodVibe": "Your vibe: {vibe}",
+  "@journalMoodVibe": {
+    "placeholders": {
+      "vibe": {
+        "type": "String"
+      }
+    }
+  },
+  "journalMoodElectric": "Electric",
+  "journalMoodTense": "Tense",
+  "journalMoodContent": "Content",
+  "journalMoodFlat": "Flat",
+  "journalMoodElectricHint": "High energy · good",
+  "journalMoodTenseHint": "High energy · rough",
+  "journalMoodContentHint": "Low energy · good",
+  "journalMoodFlatHint": "Low energy · rough",
+  "journalReactionGood": "The good",
+  "journalReactionBad": "The bad",
+  "journalVerdict": "Your verdict: {verdict}",
+  "@journalVerdict": {
+    "placeholders": {
+      "verdict": {
+        "type": "String"
+      }
+    }
+  },
+  "journalVerdictClassic": "Classic",
+  "journalVerdictGoodWatch": "Good watch",
+  "journalVerdictMixed": "Mixed",
+  "journalVerdictRough": "Rough",
+  "journalVerdictForgettable": "Forgettable",
+  "journalStatVerdict": "Usual verdict",
+  "splashStepConfig": "Getting things ready…",
+  "splashStepMatches": "Loading today's matches…",
+  "splashStepReady": "Kick-off!",
+  "splashToday": "{count, plural, =1{1 match today} other{{count} matches today}}",
+  "@splashToday": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "splashLive": "{count} live now",
+  "@splashLive": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "splashReconnecting": "Reconnecting…",
+  "splashAutoRetry": "We'll carry on as soon as you're back online.",
+  "errorQuotaTitle": "Today's data limit is reached",
+  "errorQuotaBody": "Scores already loaded stay on screen. Fresh data comes back when the limit resets.",
+  "settingsFollowingSummary": "{teams, plural, =1{1 team} other{{teams} teams}} · {competitions, plural, =1{1 competition} other{{competitions} competitions}}",
+  "@settingsFollowingSummary": {
+    "placeholders": {
+      "teams": {
+        "type": "int"
+      },
+      "competitions": {
+        "type": "int"
+      }
+    }
+  }
+}
